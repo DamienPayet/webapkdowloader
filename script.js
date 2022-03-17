@@ -31,7 +31,7 @@ function Point(x,y)
 
 canvas2.addEventListener("click",function(e){
     if(e.x > (cw /2)-(image.width/2) && e.x < (cw /2)+(image.width/2) && e.y > (ch /2)-(image.height/2) && e.y < (ch /2)+(image.height/2) ){
-        window.location = "file:///C:/Users/Damien/Documents/Mega/DIIAGE/DIIAGE%20II/Project%203/webPage/apk/app-release.apk";
+        window.location = "apk/jebooking.apk";
     }
 })
 Point.prototype.draw = function(ctx){
